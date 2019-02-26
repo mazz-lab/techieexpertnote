@@ -1,0 +1,3 @@
+Add a router module
+
+ng g module app-routing
