@@ -1,3 +1,7 @@
 Add a router module
 
-ng g module app-routing
+1.First of all add app-routing.module.ts file in your src --> app folder
+
+
+2.In app.component.html, add <router-outlet></router-outlet> in the space where views should appear.
+
