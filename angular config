@@ -5,3 +5,8 @@ Add a router module
 
 2.In app.component.html, add <router-outlet></router-outlet> in the space where views should appear.
 
+
+to create module with router
+..........................
+ng g m login --routing
+
