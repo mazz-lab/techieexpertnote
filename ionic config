@@ -1,3 +1,11 @@
+ionic start sidemenu
+
+add cordova into ionic
+
+ionic cordova platform add android@6.3.0
+
+
+
 To run ionic into android device
 
 ionic cordova run android
