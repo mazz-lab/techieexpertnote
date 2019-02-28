@@ -1,3 +1,34 @@
 To run ionic into android device
 
 ionic cordova run android
+
+
+Ionic can automatically generate perfectly sized icons and splash screens from source images (.png, .psd, or .ai) for your Cordova platforms.
+
+The source image for icons should ideally be at least 1024×1024px and located at resources/icon.png. The source image for splash screens should ideally be at least 2732×2732px and located at resources/splash.png. If you used ionic start, there should already be default Ionic resources in the resources/ directory, which you can overwrite.
+
+You can also generate platform-specific icons and splash screens by placing them in the respective resources// directory. For example, to generate an icon for Android, place your image at resources/android/icon.png.
+
+--force
+Description	
+Force regeneration of resources
+
+Aliases	-f 
+--icon
+Description	
+Generate icon resources
+
+Aliases	-i 
+--splash
+Description	
+Generate splash screen resources
+
+Aliases	-s 
+
+Examples
+ionic cordova resources
+ionic cordova resources ios
+ionic cordova resources android
+to create icon
+
+ionic cordova resource andoid -i
