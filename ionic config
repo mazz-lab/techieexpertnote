@@ -1,6 +1,9 @@
 cordova installation
 npm i -g cordova
 
+npm uninstall -g cordova
+
+npm install -g cordova
 
 ionic cordova platform add android@6.3.0
 
