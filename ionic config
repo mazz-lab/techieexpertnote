@@ -1,3 +1,8 @@
+open emulate
+...................
+ionic cordova emulate android
+
+
 To set licenses
 
 C:\Users\User\AppData\Local\Android\Sdk\tools\bin>
