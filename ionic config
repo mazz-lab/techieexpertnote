@@ -58,4 +58,4 @@ ionic cordova resources ios
 ionic cordova resources android
 to create icon
 
-ionic cordova resource andoid -i
+ionic cordova resources andoid -i
